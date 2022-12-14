@@ -12,7 +12,7 @@ const Todo = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: "activites",
+        model: "activities",
         key: "id",
       },
     },

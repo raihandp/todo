@@ -2,7 +2,7 @@ const { sequelize } = require("../../config");
 const { DataTypes } = require("sequelize");
 
 const Activity = sequelize.define(
-  "activites",
+  "activities",
   {
     title: {
       type: DataTypes.STRING,
