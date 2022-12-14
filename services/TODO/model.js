@@ -2,7 +2,7 @@ const { sequelize } = require("../../config");
 const { DataTypes } = require("sequelize");
 
 const Todo = sequelize.define(
-  "TODOS",
+  "todos",
   {
     title: {
       type: DataTypes.STRING,
