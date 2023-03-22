@@ -34,6 +34,7 @@ app.use(function (req, res, next) {
   res.header("Content-Type", "application/json");
   next();
 });
+// Register Service API
 activityAPI(app);
 todoAPI(app);
 sequelize.sync({ force: true });
